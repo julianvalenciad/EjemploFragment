@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_detail.xml"
+    app:startDestination="@id/listFragment">
+
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="com.julianvalencia.ejemplofragment.ui.list.ListFragment"
+        android:label="fragment_list"
+        tools:layout="@layout/fragment_list" >
+        <action
+            android:id="@+id/action_listFragment_to_batmanFragment"
+            app:destination="@id/batmanFragment" />
+        <action
+            android:id="@+id/action_listFragment_to_flashFragment"
+            app:destination="@id/flashFragment" />
+        <action
+            android:id="@+id/action_listFragment_to_supermanFragment"
+            app:destination="@id/supermanFragment" />
+        <action
+            android:id="@+id/action_listFragment_to_wonderWomanFragment"
+            app:destination="@id/wonderWomanFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/batmanFragment"
+        android:name="com.julianvalencia.ejemplofragment.ui.batman.BatmanFragment"
+        android:label="fragment_batman"
+        tools:layout="@layout/fragment_batman" />
+    <fragment
+        android:id="@+id/flashFragment"
+        android:name="com.julianvalencia.ejemplofragment.ui.flash.FlashFragment"
+        android:label="fragment_flash"
+        tools:layout="@layout/fragment_flash" />
+    <fragment
+        android:id="@+id/supermanFragment"
+        android:name="com.julianvalencia.ejemplofragment.ui.superman.SupermanFragment"
+        android:label="fragment_superman"
+        tools:layout="@layout/fragment_superman" />
+    <fragment
+        android:id="@+id/wonderWomanFragment"
+        android:name="com.julianvalencia.ejemplofragment.ui.wonderwoman.WonderWomanFragment"
+        android:label="fragment_wonder_woman"
+        tools:layout="@layout/fragment_wonder_woman" />
+</navigation>

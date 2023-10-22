@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">EjemploFragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="batman_name">Batman</string>
+    <string name="batman_alias">Bruce Wayne</string>
+    <string name="batman_power">exceptional martial artist, combat strategy, inexhaustible wealth, brilliant deductive skill, advanced technology</string>
+    <string name="wonder_woman_name">Wonder Woman</string>
+    <string name="wonder_woman_alias">Diana Prince</string>
+    <string name="wonder_woman_powers">super strength, invulnerability, flight, combat skill, combat strategy, superhuman agility, healing factor, magic weaponry</string>
+    <string name="superman_name">Superman</string>
+    <string name="superman_alias">Clark Kent, Kal-El</string>
+    <string name="superman_power">super strength, flight, invulnerability, super speed, heat vision, freeze breath, x-ray vision, superhuman hearing, healing factor</string>
+    <string name="flash_name">Flash</string>
+    <string name="flash_alias">Barry Allen, Jay Garrick, Wally West</string>
+    <string name="flash_power">super speed, intangibility, superhuman agility, time travel, creates and controls lightning, multiversal knowledge</string>
+    <string name="title_activity_bottom_navigation">BottomNavigationActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_tabbed">TabbedActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+</resources>
